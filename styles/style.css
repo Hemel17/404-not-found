@@ -1,0 +1,12 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap");
+
+/* shared styles */
+* {
+  font-family: "Space Mono", monospace;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
