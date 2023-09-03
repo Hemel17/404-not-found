@@ -1,12 +1,26 @@
 /* google font */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap");
 
 /* shared styles */
 * {
+  font-family: "Inconsolata", monospace;
   font-family: "Space Mono", monospace;
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* header styles */
+header p {
+  color: #333;
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -1.92px;
+  text-transform: uppercase;
+  margin-top: 1.25rem;
+  margin-left: 1.5rem;
 }
