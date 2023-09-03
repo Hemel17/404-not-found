@@ -80,3 +80,17 @@ main button {
   padding: 1.25rem 2.5rem;
   margin-top: 2rem;
 }
+
+/* footer styles */
+footer {
+  color: #bdbdbd;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+footer span {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
