@@ -13,6 +13,11 @@
   box-sizing: border-box;
 }
 
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 /* header styles */
 header p {
   color: #333;
@@ -23,4 +28,55 @@ header p {
   text-transform: uppercase;
   margin-top: 1.25rem;
   margin-left: 1.5rem;
+}
+
+/* main styles */
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 6rem;
+}
+
+main figure {
+  width: 490px;
+  height: 490px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+figure img {
+  width: 100%;
+}
+
+main div:nth-child(2) {
+  width: 586px;
+}
+
+main h1 {
+  color: #333;
+  font-family: Space Mono;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: -2.24px;
+}
+
+main p {
+  color: #4f4f4f;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.84px;
+  margin-top: 2rem;
+}
+
+main button {
+  color: #fff;
+  font-family: Space Mono;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: -0.49px;
+  text-transform: uppercase;
+  background-color: #333;
+  padding: 1.25rem 2.5rem;
+  margin-top: 2rem;
 }
